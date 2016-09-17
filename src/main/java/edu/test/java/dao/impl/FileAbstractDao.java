@@ -1,0 +1,1 @@
+package edu.test.java.dao.impl;import edu.test.java.dao.accessors.FileDataSourceAccessor;import edu.test.java.models.Model;public abstract class FileAbstractDao<T extends Model> extends FileDataSourceAccessor {    public void remove(T model) {    }    public void add(T model) {    }    public void update(T model) {    }}

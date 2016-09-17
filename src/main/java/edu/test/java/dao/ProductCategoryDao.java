@@ -1,0 +1,1 @@
+package edu.test.java.dao;import edu.test.java.models.ProductCategory;public interface ProductCategoryDao extends ItemDao<ProductCategory> {}

@@ -6,7 +6,7 @@
     <H1>Your Video</H1>
     <div>
         <video id="movie" width="640" height="480" autoplay="" controls="controls">
-            <source src="/video/Potap.mp4">
+            <source src="/video/Potap.mp4"/>
         </video>
     </div>
 </t:template>

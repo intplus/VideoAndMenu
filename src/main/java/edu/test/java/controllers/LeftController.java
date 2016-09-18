@@ -1,7 +1,7 @@
 package edu.test.java.controllers;
 
 import edu.test.java.models.Product;
-import edu.test.java.services.ProductService;
+import edu.test.java.services.VideoPageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ import java.util.List;
 public class LeftController {
 
     @Autowired
-    private ProductService productService;
+    private VideoPageService productService;
 
     public LeftController() {
 

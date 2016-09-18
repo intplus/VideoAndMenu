@@ -4,11 +4,14 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <t:template>
     <H1>Your Video</H1>
-    <div>
-        <video id="movie" width="640" height="480" autoplay="" controls="">
-            <source src="/video/Potap.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
-        </video>
+
+    <div id="video12">
+         <iframe
+                src="https://www.youtube.com/embed/RqmaXHFXokw?autoplay=1" frameborder="0" allowfullscreen>
+        </iframe>
     </div>
+
+
 </t:template>
 
 

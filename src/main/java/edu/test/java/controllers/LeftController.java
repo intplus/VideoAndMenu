@@ -14,16 +14,16 @@ import java.util.List;
 public class LeftController {
 
     @Autowired
-    private VideoPageService productService;
+    private VideoPageService videoPageService;
 
     public LeftController() {
 
     }
 
     @RequestMapping(value = "/left", method = {RequestMethod.GET, RequestMethod.POST})
-    public ModelAndView login() {
+    public ModelAndView entry() {
         ModelAndView modelAndView = new ModelAndView();
-        List<Product> products = productService.getAll();
+        List<Product> products = videoPageService.getAll();
 
         modelAndView.addObject("products", products);
         modelAndView.setViewName("left");
